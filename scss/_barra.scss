@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+  }
+  
+  .contenedorBarra {
+    min-height: 140px;
+    padding: 0px 35px;
+  }
+  
+  .logo {
+    width: 160px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+  
+  .navbar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }

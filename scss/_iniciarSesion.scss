@@ -1,0 +1,37 @@
+.contenedorIniciarSesion {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+  }
+  
+  .cajaIniciarSesion {
+    border-radius: 10PX;
+    width: 500px;
+    padding: 30px;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+  
+  .botonIniciarSesion {
+    background-color: black;
+  
+    &:hover {
+      background-color: rgb(26, 25, 25);
+    }
+  }
+  
+  .enlace:hover {
+    color: gray;
+  }
+  
+  .imagen {
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+  
+  .lema {
+    font-size: 50px;
+  }
