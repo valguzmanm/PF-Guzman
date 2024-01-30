@@ -1,19 +1,10 @@
-.container {  display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "carrusel descripcion"
-      "mapa mapa";
-  }
-  
-  .carrusel { grid-area: carrusel; }
-  
-  .descrición { grid-area: descripcion; }
-  
-  .mapa { grid-area: mapa; }
 
-  .descripcion{
-    text-align: justify;
-  }
+.carrusel { grid-area: carrusel; }
+
+.descrición { grid-area: descripcion; }
+
+.mapa { grid-area: mapa; }
+
+.descripcion{
+  text-align: justify;
+}
