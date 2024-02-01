@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Encuentra el mejor lugar, al mejor precio con GoHome">
-    <meta name="keywords" content="alquiler, alquilar, seguro, arriendo, arrendar, casa, apartamento, habitaciones, buenos precios">
+    <meta name="keywords"
+        content="alquiler, alquilar, seguro, arriendo, arrendar, casa, apartamento, habitaciones, buenos precios">
     <title>Alquila | Go Home</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,7 +19,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <header class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid contenedorBarra">
             <a class="navbar-brand" href="../index.html">
                 <img class="logo" src="../img/logo.png" alt="Logo de Go Home">
@@ -37,9 +38,9 @@
                             casa</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav ms-auto">
+                <nav class="navbar-nav ms-auto">
                     <li class="nav-item dropstart">
-                        <a class="nav-link fs-2"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link fs-2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="bi bi-person-circle"></i>
                         </a>
                         <ul class="dropdown-menu">
@@ -48,74 +49,81 @@
                             <li><a class="dropdown-item fs-5" href="./resgistrate.html">Registrate</a></li>
                         </ul>
                     </li>
-                </ul>
+                </nav>
             </div>
         </div>
-    </nav>
+    </header>
 
     <!-- cuerpo -->
 
     <main class="mt-4">
-        <section class="contenedorIniciarSesion">
-            <div class="lema m-auto text-center fs-2 ">
-                <h1 class="fs-2">Arrienda sin complicaciones: <strong>Go Home</strong> hace el trabajo duro
-                    por ti, pon tu apartamento en el mapa, fácil y rápido.
-                </h1>
-                <p class="fst-italic fw-bolder fs-6">Encuentra tu match perfecto: Apartamentos ideales, inquilinos
-                    ideales</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <div class="lema m-auto text-center fs-2 ">
+                        <h1 class="fs-2 mt-5 pt-5">Arrienda sin complicaciones: <strong>Go Home</strong> hace el trabajo duro
+                            por ti, pon tu apartamento en el mapa, fácil y rápido.
+                        </h1>
+                        <p class="fst-italic fw-bolder fs-6">Encuentra tu match perfecto: Apartamentos ideales,
+                            inquilinos
+                            ideales</p>
 
-            </div>
-
-            <div class="mx-auto mt-3 fs-5">
-                <!-- cuadro iniciar sesion -->
-
-                <div class="formularioCajaI ">
-
-                    <div class="formulario">
-                        <form class="fs-6">
-                            <h2 class="fs-4 fw-bolder ">Registra tus datos</h2>
-
-                            <div class="formularioInput mismaLinea">
-                                <div class="formularioInput50 marigenDerecho">
-                                    <label for="nombre">Nombre</label>
-                                    <input type="text" class="texto" id="nombre">
-                                </div>
-
-                                <div class="formularioInput50">
-                                    <label for="Apellido">Apellido</label>
-                                    <input type="text" class="texto" id="Apellido">
-                                </div>
-                            </div>
-
-                            <div class="formularioInput">
-                                <label for="Correo electrónico">Correo electrónico</label>
-                                <input class="texto" type="email" id="Correo electrónico">
-                            </div>
-
-                            <div class="formularioInput">
-                                <label for="pais o region">Pais o región</label>
-                                <input class="texto" type="text" id="pais o region">
-                            </div>
-
-                            <div class="formularioInput">
-                                <label for="Telefono">Teléfono</label>
-                                <input class="texto" type="text" id="Telefono">
-                            </div>
-
-                            <div class="d-grid mt-4">
-                                <button type="button" class="btn btn-dark">
-                                    Registrarse
-                                </button>
-                            </div>
-
-
-                        </form>
                     </div>
                 </div>
+                <div class="col-md-6 col-xs-12 ">
+
+                    <div class="mx-auto mt-3 fs-5">
+                        <!-- cuadro iniciar sesion -->
+
+                        <div class="formularioCajaI ">
+
+                            <div class="formulario">
+                                <form class="fs-6">
+                                    <h2 class="fs-4 fw-bolder ">Registra tus datos</h2>
+
+                                    <div class="formularioInput mismaLinea">
+                                        <div class="formularioInput50 marigenDerecho">
+                                            <label for="nombre">Nombre</label>
+                                            <input type="text" class="texto" id="nombre">
+                                        </div>
+
+                                        <div class="formularioInput50">
+                                            <label for="Apellido">Apellido</label>
+                                            <input type="text" class="texto" id="Apellido">
+                                        </div>
+                                    </div>
+
+                                    <div class="formularioInput">
+                                        <label for="Correo electrónico">Correo electrónico</label>
+                                        <input class="texto" type="email" id="Correo electrónico">
+                                    </div>
+
+                                    <div class="formularioInput">
+                                        <label for="pais o region">Pais o región</label>
+                                        <input class="texto" type="text" id="pais o region">
+                                    </div>
+
+                                    <div class="formularioInput">
+                                        <label for="Telefono">Teléfono</label>
+                                        <input class="texto" type="text" id="Telefono">
+                                    </div>
+
+                                    <div class="d-grid mt-4">
+                                        <button type="button" class="btn btn-dark">
+                                            Registrarse
+                                        </button>
+                                    </div>
 
 
+                                </form>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
     </main>
 
 
