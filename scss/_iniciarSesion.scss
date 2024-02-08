@@ -1,16 +1,6 @@
-.contenedorIniciarSesion {
-    display: grid;
-    grid-template-columns: 1.4fr 1fr;
-  }
-  
-  .cajaIniciarSesion {
-    border-radius: 10PX;
-    width: 500px;
-    padding: 30px;
-    flex-wrap: wrap;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-    background-color: white;
-  }
+.formularioCajaI {
+  @include formulario
+}
   
   .botonIniciarSesion {
     background-color: black;
@@ -34,4 +24,5 @@
   
   .lema {
     font-size: 50px;
+    margin-top: 20%;
   }
